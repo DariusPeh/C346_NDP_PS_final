@@ -38,19 +38,19 @@ public class MainActivity3 extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main3);
 
-        tvID = findViewById(R.id.tvID);
-        tvFixID = findViewById(R.id.tvIDnum);
-        tvTitle = findViewById(R.id.tvTitle);
-        etTitle = findViewById(R.id.etTitle);
-        tvSingers = findViewById(R.id.tvSingers);
-        etSingers = findViewById(R.id.etSingers);
-        tvYear = findViewById(R.id.tvYear);
-        etYear = findViewById(R.id.etYear);
-        tvRating = findViewById(R.id.tvRating);
-        rgRating = findViewById(R.id.rgRating);
-        btnUpdate = findViewById(R.id.btnUpdate);
-        btnDelete = findViewById(R.id.btnDelete);
-        btnCancel = findViewById(R.id.btnCancel);
+        tvID = findViewById(R.id.tv3ID);
+        tvFixID = findViewById(R.id.tv3IDnum);
+        tvTitle = findViewById(R.id.tv3Title);
+        etTitle = findViewById(R.id.et3Title);
+        tvSingers = findViewById(R.id.tv3Singers);
+        etSingers = findViewById(R.id.et3Singers);
+        tvYear = findViewById(R.id.tv3Year);
+        etYear = findViewById(R.id.et3Year);
+        tvRating = findViewById(R.id.tv3Rating);
+        rgRating = findViewById(R.id.rg3Rating);
+        btnUpdate = findViewById(R.id.btn3Update);
+        btnDelete = findViewById(R.id.btn3Delete);
+        btnCancel = findViewById(R.id.btn3Cancel);
 
         Intent x = getIntent();
         data = (Song) x.getSerializableExtra("id");

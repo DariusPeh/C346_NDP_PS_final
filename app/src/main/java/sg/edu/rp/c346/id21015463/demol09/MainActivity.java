@@ -39,7 +39,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         tvTitle = findViewById(R.id.tvTitle);
-        etTitle = findViewById(R.id.etTitle);
+        etTitle = findViewById(R.id.et3Title);
         tvSingers = findViewById(R.id.tvSingers);
         etSingers = findViewById(R.id.etSingers);
         tvYear = findViewById(R.id.tvYear);
@@ -52,7 +52,7 @@ public class MainActivity extends AppCompatActivity {
 
         al = new ArrayList<Song>();
         aa = new ArrayAdapter<Song>(this,
-                android.R.layout.simple_list_item_1, al);
+                android.R.layout.simple_list_item_2, al);
         lv.setAdapter(aa);
 
         btnShowList.setOnClickListener(new View.OnClickListener() {
@@ -61,7 +61,7 @@ public class MainActivity extends AppCompatActivity {
                 DBHelper dbh = new DBHelper(MainActivity.this);
                 Intent x = new Intent(MainActivity.this,
                         MainActivity2.class);
-                //al.addAll(dbh.getAllSongs());
+                al.addAll(dbh.getAllSongs());
                 startActivity(x);
             }
         });
@@ -79,7 +79,7 @@ public class MainActivity extends AppCompatActivity {
                     if (inserted_id != -1){
                         al.clear();
                         al.addAll(dbh.getAllSongs());
-//                        aa.notifyDataSetChanged();
+                        aa.notifyDataSetChanged();
                         Toast.makeText(MainActivity.this, "Insert successful",
                                 Toast.LENGTH_SHORT).show();
                     }

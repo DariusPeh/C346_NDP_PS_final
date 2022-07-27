@@ -6,26 +6,26 @@
 
 
     <TextView
-        android:id="@+id/tvID"
+        android:id="@+id/tv3ID"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/tvID" />
 
     <TextView
-        android:id="@+id/tvIDnum"
+        android:id="@+id/tv3IDnum"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/tvIDnum" />
 
     <TextView
-        android:id="@+id/tvTitle"
+        android:id="@+id/tv3Title"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/tvTitle"
         android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
 
     <EditText
-        android:id="@+id/etTitle"
+        android:id="@+id/et3Title"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
@@ -33,14 +33,14 @@
         android:text="@string/editTitle" />
 
     <TextView
-        android:id="@+id/tvSingers"
+        android:id="@+id/tv3Singers"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/tvSingers"
         android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
 
     <EditText
-        android:id="@+id/etSingers"
+        android:id="@+id/et3Singers"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
@@ -48,14 +48,14 @@
         android:text="@string/editSingers" />
 
     <TextView
-        android:id="@+id/textView3"
+        android:id="@+id/tv3Year"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/tvYear"
         android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName3"
+        android:id="@+id/et3Year"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
@@ -63,13 +63,13 @@
         android:text="@string/editYear" />
 
     <TextView
-        android:id="@+id/tvRating"
+        android:id="@+id/tv3Rating"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/tvRating" />
 
     <RadioGroup
-        android:id="@+id/rgRating"
+        android:id="@+id/rg3Rating"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
@@ -122,14 +122,14 @@
         android:orientation="horizontal">
 
         <Button
-            android:id="@+id/btnUpdate"
+            android:id="@+id/btn3Update"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="@string/btnUpdate" />
 
         <Button
-            android:id="@+id/btnDelete"
+            android:id="@+id/btn3Delete"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -137,7 +137,7 @@
     </LinearLayout>
 
     <Button
-        android:id="@+id/btnCancel"
+        android:id="@+id/btn3Cancel"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/btnCancel" />

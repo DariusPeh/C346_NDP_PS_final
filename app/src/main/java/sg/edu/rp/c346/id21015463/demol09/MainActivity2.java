@@ -31,7 +31,7 @@ public class MainActivity2 extends AppCompatActivity {
         data = (Song) x.getSerializableExtra("id");
 
         al = new ArrayList<Song>();
-        aa = new ArrayAdapter<Song>(this, android.R.layout.simple_list_item_1, al);
+        aa = new ArrayAdapter<Song>(this, android.R.layout.simple_list_item_2, al);
         lv.setAdapter(aa);
 
         lv.setOnItemClickListener(new AdapterView.OnItemClickListener() {
