@@ -14,4 +14,11 @@
     <string name="btnUpdate">Update</string>
     <string name="btnDelete">Delete</string>
     <string name="btnCancel">Cancel</string>
+
+    <string name="tvRating">Stars</string>
+    <string name="star1">1</string>
+    <string name="star2">2</string>
+    <string name="star3">3</string>
+    <string name="star4">4</string>
+    <string name="star5">5</string>
 </resources>
